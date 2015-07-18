@@ -1,0 +1,6 @@
+fix black stuff -> improve the mouse trail
+
+-want to have max_trail_len ( 20) dots created at the very beginning
+-make all opacity = 0
+-dont create or delete any more
+-when the mouse moves -> get the current_spot one and make it opacity full, move it to x,y 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+
+
+	<!--  onmousemove="show_coord(event)" -->
+ <div class="entire-page" onmousemove="show_coord(event)">
+
+ 	<section id="backdrop" >
+ 		<img id="background" src="./dark_blue.jpg" >
+ 			
+ 		</img>
+ 	</section>
+ 	
+ 	 <section>
+ 		<a href="javascript:history.go(0)" id="my_name" onmouseenter="highlight_text(this)"
+ 			onmouseout="unhighlight_text(this)">
+ 			Andrew Hollist
+ 		</a>
+
+ 		<a id="my_resume" href="https://drive.google.com/file/d/0B41MV3HUpqGsWUZGRlZicjdSTFk/view?usp=sharing"onmouseenter="highlight_text(this)"
+ 			onmouseout="unhighlight_text(this)">
+ 			Resume
+ 		</a>
+
+ 		<a id="my_linked_in" href="https://www.linkedin.com/in/andrewhollist"  onmouseenter="highlight_text(this)"
+ 			onmouseout="unhighlight_text(this)">
+ 			LinkedIn
+ 		</a>
+
+
+ 		<a id="my_code" onmouseenter="highlight_text(this)"
+ 			onmouseout="unhighlight_text(this)">
+ 			Sample Code
+ 		</a>
+
+
+ 		<a id="my_contact" onmouseenter="highlight_text(this)"
+ 			onmouseout="unhighlight_text(this)">
+ 			Contact
+ 		</a>
+
+ 		<hr id="line">
+
+ 	</section>
+
+ 	<section>
+ 		<img id="andyPic" src="fancypic.jpg"></img>
+
+ 		<h1 id="bio_title">
+ 			Bio:
+ 		</h1>
+ 		<p1 id="bio">
+ 			My name is Andrew Hollist. I am pursuing a bachelors degree in Computer Science at the University of California Riverside. I am driven by my love of video games and technology to further push myself and learn new things every day.
+ 		</p1>
+ 		<div id = "bio_box" class="box1">
+ 		</div>
+
+ 	</section>
+
+ 	<section>
+ 		<h1 id="projectTitle">
+ 			My Projects
+ 		</h1>
+ 	</section>
+
+ 	<section id="sec2">
+ 		<p1 id="coord">
+ 			0 , 0
+ 		</p1>
+
+ 	</section>
+
+
+ </div>
+
+
+ <script src="myscripts.js"></script>
+</body>
+
+
+</html>

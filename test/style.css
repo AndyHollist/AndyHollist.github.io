@@ -1,0 +1,154 @@
+
+
+
+
+#background
+{
+	position: fixed;
+	top: 0px;
+	right:0px;
+	width: 110vw;
+	height: 100vh;
+	z-index: -5;
+}
+
+
+
+
+#my_name
+{
+	font-size: 40px;
+	position:absolute;
+	color:grey;
+	font-family: arial;
+	top: 30px;
+	right: 46vw;
+	z-index:1;
+	text-decoration: none;
+}
+
+#line{
+	color: yellow;
+	border-color: yellow;
+	position:absolute;
+	top:120px;
+	z-index: 1;
+	width: 75vw;
+	left:10vw;
+}
+
+#my_resume
+{
+	font-size: 30px;
+	position:absolute;
+	color:grey;
+	font-family: arial;
+	top: 130px;
+	right: 80vw;
+	z-index:1;
+	text-decoration: none;
+}
+
+#my_linked_in
+{
+	font-size: 30px;
+	position:absolute;
+	color:grey;
+	font-family: arial;
+	top: 130px;
+	right: 60vw;
+	z-index:1;
+	text-decoration: none;
+}
+
+#my_code
+{
+	font-size: 30px;
+	position:absolute;
+	color:grey;
+	font-family: arial;
+	top: 130px;
+	right: 36vw;
+	z-index:1;
+	text-decoration: none;
+}
+
+#my_contact
+{
+	font-size: 30px;
+	position:absolute;
+	color:grey;
+	font-family: arial;
+	top: 130px;
+	right: 20vw;
+	z-index:1;
+	text-decoration: none;
+}
+
+#bio_title
+{
+	font-size: 30px;
+	position:absolute;
+	color:white;
+	font-family: arial;
+	top: 220px;
+	right: 76vw;
+	z-index:2;
+	
+}
+
+#bio
+{
+	font-size: 20px;
+	position:absolute;
+	color:lightgrey;
+	font-family: arial;
+	top: 280px;
+	right: 20vw;
+	z-index:1;
+	width:60vw;
+}
+
+#andyPic
+{
+	z-index:0;
+	width: 100px;
+	height: 180px;
+	position:absolute;
+	top:255px;
+	right:82vw;
+	clip:rect(10px, 130px, 100px, 0px);
+}
+
+#bio_box
+{
+	z-index: -1;
+	position: absolute;
+	top: 240px;
+	right: 14vw;
+	background-color: grey;
+	width: 75vw;
+	height: 140px;
+	border: 5px solid white;
+}
+
+#projectTitle
+{
+	font-size: 30px;
+	position:absolute;
+	color:white;
+	font-family: arial;
+	top: 420px;
+	right: 76vw;
+	z-index:2;
+}
+
+#coord
+{
+	position: fixed;
+	top: 89vh;
+	right: 50vw;/*centers it, viewport width 50%*/
+
+
+}
+
