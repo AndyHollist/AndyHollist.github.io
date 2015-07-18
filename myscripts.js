@@ -87,7 +87,7 @@ function show_coord(event){
 	document.getElementById("name-pic").style.right= x1 + "px";*/
 	//document.getElementById("name-pic").style.visibility="visible";
 
-	if( x < 1466)
+	if( x < 1300)
 	mouse_trail(event);
 	
 	/*var name = document.getElementById("my_name");
