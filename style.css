@@ -116,7 +116,7 @@
 	height: 180px;
 	position:absolute;
 	top:255px;
-	right:82vw;
+	right:81vw;
 	clip:rect(10px, 130px, 100px, 0px);
 }
 
@@ -143,11 +143,102 @@
 	z-index:2;
 }
 
+#ZanyBallsTitle
+{
+	font-size: 20px;
+	position:absolute;
+	color:white;
+	font-family: arial;
+	top: 520px;
+	left: 19vw;
+	z-index:2;
+}
+
+#zanytxt
+{
+	font-size: 16px;
+	position:absolute;
+	color:lightgrey;
+	font-family: arial;
+	top: 550px;
+	left: 20vw;
+	z-index:1;
+	width:24vw;
+}
+
+#zanyBox
+{
+	z-index: -1;
+	position: absolute;
+	top: 515px;
+	right: 54vw;
+	background-color: grey;
+	width: 35vw;
+	height: 180px;
+	border: 5px solid white;
+}
+
+#zanyPic
+{
+	z-index:0;
+	width: 100px;
+	height: 140px;
+	position:absolute;
+	top:535px;
+	right:81vw;
+}
+
+#DrunkWordsTitle
+{
+	font-size: 20px;
+	position:absolute;
+	color:white;
+	font-family: arial;
+	top: 520px;
+	left: 63vw;
+	z-index:2;
+}
+
+#drunkBox
+{
+	z-index: -1;
+	position: absolute;
+	top: 515px;
+	right: 10vw;
+	background-color: grey;
+	width: 35vw;
+	height: 180px;
+	border: 5px solid white;
+}
+
+#drunkPic
+{
+	z-index:0;
+	width: 100px;
+	height: 140px;
+	position:absolute;
+	top:535px;
+	right:37vw;
+}
+
+
+
+
+#bottomSpace
+{
+	z-index:-4;
+	width: 100vw;
+	height: 180px;
+	position:absolute;
+	top:905px;
+	right:0;
+}
+
 #coord
 {
 	position: fixed;
-	top: 89vh;
-	right: 50vw;/*centers it, viewport width 50%*/
+	bottom: 1vh;
+	right: 1vw;/*centers it, viewport width 50%*/
 
 
 }
