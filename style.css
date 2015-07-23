@@ -143,6 +143,8 @@
 	z-index:2;
 }
 
+
+/*--------------------*/
 #ZanyBallsTitle
 {
 	font-size: 20px;
@@ -188,6 +190,7 @@
 	right:81vw;
 }
 
+/*--------------------*/
 #DrunkWordsTitle
 {
 	font-size: 20px;
@@ -221,7 +224,66 @@
 	right:37vw;
 }
 
+#drunktxt
+{
+	font-size: 16px;
+	position:absolute;
+	color:lightgrey;
+	font-family: arial;
+	top: 550px;
+	left: 64vw;
+	z-index:1;
+	width:24vw;
+}
 
+/*--------------------*/
+#RcartTitle
+{
+	font-size: 20px;
+	position:absolute;
+	color:white;
+	font-family: arial;
+	top: 770px;
+	left: 19vw;
+	z-index:2;
+}
+
+#carttxt
+{
+	font-size: 16px;
+	position:absolute;
+	color:lightgrey;
+	font-family: arial;
+	top: 800px;
+	left: 20vw;
+	z-index:1;
+	width:24vw;
+}
+
+#cartBox
+{
+	z-index: -1;
+	position: absolute;
+	top: 765px;
+	right: 54vw;
+	background-color: grey;
+	width: 35vw;
+	height: 180px;
+	border: 5px solid white;
+}
+
+#cartPic
+{
+	z-index:0;
+	width: 100px;
+	height: 140px;
+	position:absolute;
+	top:785px;
+	right:81vw;
+}
+
+
+/*--------------------*/
 
 
 #bottomSpace
