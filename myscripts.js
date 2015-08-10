@@ -26,7 +26,7 @@ for(var i = 0; i < max_trail_length; ++i)
 	trail_pic.style.top="0px";
 	trail_pic.style.left="0px";
 	trail_pic.style.opacity="0";//start 0.29
-	trail_pic.style.zIndex = "-1";
+	trail_pic.style.zIndex = "-2";
 
 	
 	parent.appendChild(trail_pic);
@@ -112,5 +112,78 @@ function highlight_text(t){
 function unhighlight_text(t){
 	t.style.color="grey";
 	
+}
+
+function in_bio(t){
+	var box = document.getElementById("bio_box");
+	var txt = document.getElementById("bio");
+	var title = document.getElementById("bio_title");
+	var pic = document.getElementById("andyPic");
+	box.style.opacity = 0.8;
+	txt.style.opacity = 0.8;
+	title.style.opacity = 0.8;
+	pic.style.opacity = 0.8;
+	
+	box.style.transform = "scale(1.01,1.01)";
+	txt.style.transform = "scale(1.01,1.01)";
+	title.style.transform = "scale(1.07,1.07)";
+	pic.style.transform = "scale(1.06,1.06)";
+}
+
+
+function out_bio(t){
+	var box = document.getElementById("bio_box");
+	var txt = document.getElementById("bio");
+	var title = document.getElementById("bio_title");
+	var pic = document.getElementById("andyPic");
+	box.style.opacity = 0.5;
+	txt.style.opacity = 0.5;
+	title.style.opacity = 0.5;
+	pic.style.opacity = 0.5;
+
+	box.style.transform = "scale(1,1)";
+	txt.style.transform = "scale(1,1)";
+	title.style.transform = "scale(1,1)";
+	pic.style.transform = "scale(1,1)";
+}
+
+function in_zany(t){
+	var title = document.getElementById("ZanyBallsTitle");
+	var txt = document.getElementById("zanytxt");
+	var box = document.getElementById("zanyBox");
+	var pic = document.getElementById("zanyPic");
+	var code = document.getElementById("zanyCode");
+
+	box.style.opacity = 0.8;
+	txt.style.opacity = 0.8;
+	title.style.opacity = 0.8;
+	pic.style.opacity = 0.8;
+	code.style.opacity = 0.8;
+	
+	box.style.transform = "scale(1.01,1.01)";
+	txt.style.transform = "scale(1.01,1.01)";
+	title.style.transform = "scale(1.07,1.07)";
+	pic.style.transform = "scale(1.06,1.06)";
+	code.style.transform = "scale(1.01,1.01)";
+}
+
+function out_zany(t){
+	var title = document.getElementById("ZanyBallsTitle");
+	var txt = document.getElementById("zanytxt");
+	var box = document.getElementById("zanyBox");
+	var pic = document.getElementById("zanyPic");
+	var code = document.getElementById("zanyCode");
+
+	box.style.opacity = 0.5;
+	txt.style.opacity = 0.5;
+	title.style.opacity = 0.5;
+	pic.style.opacity = 0.5;
+	code.style.opacity = 0.5;
+	
+	box.style.transform = "scale(1,1)";
+	txt.style.transform = "scale(1,1)";
+	title.style.transform = "scale(1,1)";
+	pic.style.transform = "scale(1,1)";
+	code.style.transform = "scale(1,1)";
 }
 

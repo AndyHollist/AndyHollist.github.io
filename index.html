@@ -40,8 +40,9 @@
  			Sample Code
  		</a>
 
-
- 		<a id="my_contact" href="https://drive.google.com/a/ucr.edu/file/d/0B41MV3HUpqGsOXFuSVZuWWlKTE0/view?usp=sharing" 
+ 		<!-- href="https://drive.google.com/a/ucr.edu/file/d/0B41MV3HUpqGsOXFuSVZuWWlKTE0/view?usp=sharing" -->
+ 		<a id="my_contact" 
+ 			href="https://docs.google.com/a/ucr.edu/document/d/14v4GXvbvLlqO7l_WNHAghk357f67ck0K3VymyyhKONc/edit?usp=sharing"
  		 	onmouseenter="highlight_text(this)"
  			onmouseout="unhighlight_text(this)">
  			Contact Me
@@ -52,15 +53,15 @@
  	</section>
 
  	<section>
- 		<img id="andyPic" src="fancypic.jpg"></img>
+ 		<img id="andyPic" src="fancypic.jpg" onmouseenter="in_bio(this)" onmouseout="out_bio(this)"></img>
 
- 		<h1 id="bio_title">
+ 		<h1 id="bio_title" onmouseenter="in_bio(this)" onmouseout="out_bio(this)">
  			Bio
  		</h1>
- 		<p1 id="bio">
+ 		<p1 id="bio" onmouseenter="in_bio(this)" onmouseout="out_bio(this)">
  			My name is Andrew Hollist. I am pursuing a bachelors degree in Computer Science at the University of California Riverside. I am driven by my love of video games and technology to further push myself and learn new things every day.
  		</p1>
- 		<div id = "bio_box" class="box1">
+ 		<div id = "bio_box" class="box1" onmouseenter="in_bio(this)" onmouseout="out_bio(this)">
  		</div>
 
  	</section>
@@ -72,19 +73,24 @@
  	</section>
 
  	<section>
- 		<h2 id="ZanyBallsTitle">
+ 		<h2 id="ZanyBallsTitle"  onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
  			Zany Balls
  		</h2>
- 		<p id="zanytxt">
+ 		<p id="zanytxt"   onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
  			Zany Balls is a simple and addictive game that is a blast to play. You control the paddle to try and
  			catch the blue balls but avoid the red ones as they fall, bounce, and fly towards you! Created using
  			C++.
  		</p>
 
- 		<div id="zanyBox">
+ 		<div id="zanyBox"   onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
  		</div>
- 		<img id="zanyPic" src="./zanyballs1.PNG">
+ 		<img id="zanyPic" src="./zanyballs1.PNG"   onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
  		</img>
+
+ 		<a id="zanyCode" href= "https://github.com/AndyHollist/CrazyBalls/blob/master/main.cpp"
+ 		 onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
+ 			C++ Code
+ 		</a>
 
  	</section>
 
