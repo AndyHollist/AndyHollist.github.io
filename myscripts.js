@@ -114,11 +114,7 @@ function unhighlight_text(t){
 	
 }
 
-function in_bio(t){
-	var box = document.getElementById("bio_box");
-	var txt = document.getElementById("bio");
-	var title = document.getElementById("bio_title");
-	var pic = document.getElementById("andyPic");
+function inside(box,txt,title,pic){
 	box.style.opacity = 0.8;
 	txt.style.opacity = 0.8;
 	title.style.opacity = 0.8;
@@ -130,12 +126,7 @@ function in_bio(t){
 	pic.style.transform = "scale(1.06,1.06)";
 }
 
-
-function out_bio(t){
-	var box = document.getElementById("bio_box");
-	var txt = document.getElementById("bio");
-	var title = document.getElementById("bio_title");
-	var pic = document.getElementById("andyPic");
+function outside(box,txt,title,pic){
 	box.style.opacity = 0.5;
 	txt.style.opacity = 0.5;
 	title.style.opacity = 0.5;
@@ -147,23 +138,31 @@ function out_bio(t){
 	pic.style.transform = "scale(1,1)";
 }
 
+function in_bio(t){
+	var box = document.getElementById("bio_box");
+	var txt = document.getElementById("bio");
+	var title = document.getElementById("bio_title");
+	var pic = document.getElementById("andyPic");
+	inside(box,txt,title,pic);
+}
+
+
+function out_bio(t){
+	var box = document.getElementById("bio_box");
+	var txt = document.getElementById("bio");
+	var title = document.getElementById("bio_title");
+	var pic = document.getElementById("andyPic");
+	outside(box,txt,title,pic);
+}
+
 function in_zany(t){
 	var title = document.getElementById("ZanyBallsTitle");
 	var txt = document.getElementById("zanytxt");
 	var box = document.getElementById("zanyBox");
 	var pic = document.getElementById("zanyPic");
 	var code = document.getElementById("zanyCode");
-
-	box.style.opacity = 0.8;
-	txt.style.opacity = 0.8;
-	title.style.opacity = 0.8;
-	pic.style.opacity = 0.8;
+	inside(box,txt,title,pic);
 	code.style.opacity = 0.8;
-	
-	box.style.transform = "scale(1.01,1.01)";
-	txt.style.transform = "scale(1.01,1.01)";
-	title.style.transform = "scale(1.07,1.07)";
-	pic.style.transform = "scale(1.06,1.06)";
 	code.style.transform = "scale(1.01,1.01)";
 }
 
@@ -173,17 +172,42 @@ function out_zany(t){
 	var box = document.getElementById("zanyBox");
 	var pic = document.getElementById("zanyPic");
 	var code = document.getElementById("zanyCode");
-
-	box.style.opacity = 0.5;
-	txt.style.opacity = 0.5;
-	title.style.opacity = 0.5;
-	pic.style.opacity = 0.5;
+	outside(box,txt,title,pic);
 	code.style.opacity = 0.5;
-	
-	box.style.transform = "scale(1,1)";
-	txt.style.transform = "scale(1,1)";
-	title.style.transform = "scale(1,1)";
-	pic.style.transform = "scale(1,1)";
 	code.style.transform = "scale(1,1)";
 }
 
+function in_drunk(t){
+	var title = document.getElementById("DrunkWordsTitle");
+	var txt = document.getElementById("drunktxt");
+	var box = document.getElementById("drunkBox");
+	var pic = document.getElementById("drunkPic");
+	//var code = document.getElementById("zanyCode");
+	inside(box,txt,title,pic);
+
+}
+
+function out_drunk(t){
+	var title = document.getElementById("DrunkWordsTitle");
+	var txt = document.getElementById("drunktxt");
+	var box = document.getElementById("drunkBox");
+	var pic = document.getElementById("drunkPic");
+	outside(box,txt,title,pic);
+}
+
+function in_cart(t){
+	var title = document.getElementById("RcartTitle");
+	var txt = document.getElementById("carttxt");
+	var box = document.getElementById("cartBox");
+	var pic = document.getElementById("cartPic");
+	inside(box,txt,title,pic);
+
+}
+
+function out_cart(t){
+	var title = document.getElementById("RcartTitle");
+	var txt = document.getElementById("carttxt");
+	var box = document.getElementById("cartBox");
+	var pic = document.getElementById("cartPic");
+	outside(box,txt,title,pic);
+}

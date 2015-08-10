@@ -220,6 +220,7 @@
 	top: 520px;
 	left: 63vw;
 	z-index:2;
+	opacity: 0.5;
 }
 
 #drunkBox
@@ -232,6 +233,7 @@
 	width: 35vw;
 	height: 180px;
 	border: 5px solid white;
+	opacity: 0.5;
 }
 
 #drunkPic
@@ -242,6 +244,7 @@
 	position:absolute;
 	top:535px;
 	right:37vw;
+	opacity: 0.5;
 }
 
 #drunktxt
@@ -254,6 +257,7 @@
 	left: 64vw;
 	z-index:1;
 	width:24vw;
+	opacity: 0.5;
 }
 
 /*--------------------*/
@@ -266,6 +270,7 @@
 	top: 770px;
 	left: 19vw;
 	z-index:2;
+	opacity: 0.5;
 }
 
 #carttxt
@@ -278,6 +283,7 @@
 	left: 20vw;
 	z-index:1;
 	width:24vw;
+	opacity: 0.5;
 }
 
 #cartBox
@@ -290,6 +296,7 @@
 	width: 35vw;
 	height: 180px;
 	border: 5px solid white;
+	opacity: 0.5;
 }
 
 #cartPic
@@ -300,6 +307,7 @@
 	position:absolute;
 	top:785px;
 	right:81vw;
+	opacity: 0.5;
 }
 
 
