@@ -260,6 +260,18 @@
 	opacity: 0.5;
 }
 
+#drunkCode
+{
+	font-size: 16px;
+	position:absolute;
+	color:lightgrey;
+	font-family: arial;
+	top: 660px;
+	left: 69vw;
+	z-index:1;
+	opacity: 0.5;
+}
+
 /*--------------------*/
 #RcartTitle
 {
