@@ -337,7 +337,70 @@
 
 /*--------------------*/
 
+#BikeTitle
+{
+	font-size: 20px;
+	position:absolute;
+	color:white;
+	font-family: arial;
+	top: 770px;
+	left: 63vw;
+	z-index:2;
+	opacity: 0.5;
+}
 
+
+#biketxt
+{
+	font-size: 16px;
+	position:absolute;
+	color:lightgrey;
+	font-family: arial;
+	top: 800px;
+	left: 64vw;
+	z-index:1;
+	width:24vw;
+	opacity: 0.5;
+}
+
+#bikeBox
+{
+	z-index: -1;
+	position: absolute;
+	top: 765px;
+	right: 10vw;
+	background-color: grey;
+	width: 35vw;
+	height: 180px;
+	border: 5px solid white;
+	opacity: 0.5;
+}
+
+#bikePic
+{
+	z-index:0;
+	width: 100px;
+	height: 140px;
+	position:absolute;
+	top:785px;
+	right:37vw;
+	opacity: 0.5;
+}
+
+#bikeCode
+{
+	font-size: 16px;
+	position:absolute;
+	color:lightgrey;
+	font-family: arial;
+	top: 920px;
+	left: 69vw;
+	z-index:1;
+	opacity: 0.5;
+}
+
+
+/*----------------------------*/
 #bottomSpace
 {
 	z-index:-4;

@@ -211,3 +211,19 @@ function out_cart(t){
 	var pic = document.getElementById("cartPic");
 	outside(box,txt,title,pic);
 }
+
+function in_bike(t){
+	var title = document.getElementById("BikeTitle");
+	var txt = document.getElementById("biketxt");
+	var box = document.getElementById("bikeBox");
+	var pic = document.getElementById("bikePic");
+	inside(box,txt,title,pic);
+}
+
+function out_bike(t){
+	var title = document.getElementById("BikeTitle");
+	var txt = document.getElementById("biketxt");
+	var box = document.getElementById("bikeBox");
+	var pic = document.getElementById("bikePic");
+	outside(box,txt,title,pic);
+}
