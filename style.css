@@ -155,7 +155,7 @@
 	position:absolute;
 	color:white;
 	font-family: arial;
-	top: 520px;
+	top: 920px;
 	left: 19vw;
 	z-index:2;
 	opacity: 0.5;
@@ -167,7 +167,7 @@
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
-	top: 550px;
+	top: 950px;
 	left: 20vw;
 	z-index:1;
 	width:24vw;
@@ -178,7 +178,7 @@
 {
 	z-index: -1;
 	position: absolute;
-	top: 515px;
+	top: 915px;
 	right: 54vw;
 	background-color: grey;
 	width: 35vw;
@@ -193,7 +193,7 @@
 	width: 100px;
 	height: 140px;
 	position:absolute;
-	top:535px;
+	top:935px;
 	right:81vw;
 	opacity: 0.5;
 }
@@ -204,7 +204,7 @@
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
-	top: 670px;
+	top: 1070px;
 	left: 20vw;
 	z-index:1;
 	opacity: 0.5;
@@ -279,7 +279,7 @@
 	position:absolute;
 	color:white;
 	font-family: arial;
-	top: 770px;
+	top: 1170px;
 	left: 19vw;
 	z-index:2;
 	opacity: 0.5;
@@ -291,7 +291,7 @@
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
-	top: 800px;
+	top: 1200px;
 	left: 20vw;
 	z-index:1;
 	width:24vw;
@@ -302,7 +302,7 @@
 {
 	z-index: -1;
 	position: absolute;
-	top: 765px;
+	top: 1165px;
 	right: 54vw;
 	background-color: grey;
 	width: 35vw;
@@ -317,7 +317,7 @@
 	width: 100px;
 	height: 140px;
 	position:absolute;
-	top:785px;
+	top:1185px;
 	right:81vw;
 	opacity: 0.5;
 }
@@ -328,7 +328,7 @@
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
-	top: 920px;
+	top: 1320px;
 	left: 29vw;
 	z-index:1;
 	opacity: 0.5;
@@ -400,14 +400,25 @@
 }
 
 
+/*------------------------------*/
+
+#ball_video
+{
+	position:absolute;
+	top: 500px;
+	left: 8vw;
+	z-index: 1;
+}
+
+
 /*----------------------------*/
 #bottomSpace
 {
 	z-index:-4;
 	width: 100vw;
-	height: 180px;
+	height: 200px;
 	position:absolute;
-	top:905px;
+	top:1500px;
 	right:0;
 }
 
