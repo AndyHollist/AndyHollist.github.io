@@ -17,7 +17,7 @@
  		</img>
  	</section>
  	
- 	 <section>
+ 	 <section id="top_menu">
  		<a href="javascript:history.go(0)" id="my_name" onmouseenter="highlight_text(this)"
  			onmouseout="unhighlight_text(this)" >
  			Andrew Hollist
@@ -50,9 +50,9 @@
 
  		<hr id="line">
 
- 	</section>
+ 	</section >
 
- 	<section>
+ 	<section id="bio_section">
  		<img id="andyPic" src="fancypic.jpg" onmouseenter="in_bio(this)" onmouseout="out_bio(this)"></img>
 
  		<h1 id="bio_title" onmouseenter="in_bio(this)" onmouseout="out_bio(this)">
@@ -66,31 +66,40 @@
 
  	</section>
 
- 	<section>
+ 	<section id="projectTitle_section">
  		<h1 id="projectTitle">
  			My Projects
  		</h1>
  	</section>
 
- 	<section>
- 		<h2 id="ZanyBallsTitle"  onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
- 			Zany Balls
- 		</h2>
- 		<p id="zanytxt"   onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
- 			Zany Balls is a simple and addictive game that is a blast to play. You control the paddle to try and
- 			catch the blue balls but avoid the red ones as they fall, bounce, and fly towards you! Created using
- 			C++.
- 		</p>
+ 	 <section id="youtube_row1">
+ 		<iframe id="ball_video"  src="https://www.youtube.com/embed/1wA4vgr2now" frameborder="0" allowfullscreen></iframe>
+ 		<iframe id="zany_balls_video" src="https://www.youtube.com/embed/tjZFOb6BzNw" frameborder="0" allowfullscreen></iframe>
+ 	</section>
 
- 		<div id="zanyBox"   onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
- 		</div>
- 		<img id="zanyPic" src="./zanyballs1.PNG"   onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
- 		</img>
+ 	<section id="boxes_row1"  >
 
- 		<a id="zanyCode" href= "https://github.com/AndyHollist/CrazyBalls/blob/master/main.cpp"
- 		 onmouseenter="in_zany(this)" onmouseout="out_zany(this)" target="_blank">
- 			C++ Code
- 		</a>
+ 		<<div id="zanyBox" onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
+
+
+	 	</div>
+
+	 	 	<img id="zanyPic" src="./zanyballs1.PNG"   onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
+	 		</img>
+	 		<h2 id="ZanyBallsTitle"  onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
+	 			Zany Balls
+	 		</h2>
+	 		<p id="zanytxt"   onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
+	 			Zany Balls is a simple and addictive game that is a blast to play. You control the paddle to try and
+	 			catch the blue balls but avoid the red ones as they fall, bounce, and fly towards you! Created using
+	 			C++.
+	 		</p>
+
+	 		<a id="zanyCode" href= "https://github.com/AndyHollist/CrazyBalls/blob/master/main.cpp"
+	 		 onmouseenter="in_zany(this)" onmouseout="out_zany(this)" target="_blank">
+	 			C++ Code
+	 		</a>
+ 		
 
  	</section>
 
@@ -154,9 +163,7 @@
  		</a>
  	</section>
  	
- 	<section>
- 		<iframe id="ball_video" width="560" height="315" src="https://www.youtube.com/embed/1wA4vgr2now" frameborder="0" allowfullscreen></iframe>
- 	</section>
+
 
  	<section>
  		<div id="bottomSpace">

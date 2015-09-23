@@ -26,8 +26,8 @@ for(var i = 0; i < max_trail_length; ++i)
 	trail_pic.style.top="0px";
 	trail_pic.style.left="0px";
 	trail_pic.style.opacity="0";//start 0.29
-	trail_pic.style.zIndex = "-2";
-
+	trail_pic.style.zIndex = "2";
+	trail_pic.style.pointerEvents = "none";
 	
 	parent.appendChild(trail_pic);
 }
