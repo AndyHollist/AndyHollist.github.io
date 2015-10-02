@@ -54,6 +54,10 @@ var curr_link = document.getElementById("zanyCode");
 curr_link.style.top = link_row1_top + "vh";
 curr_link.style.left = link_col1_left + "vw";
 
+curr_link = document.getElementById("zanyBallsAndroidCode");
+curr_link.style.top = link_row1_top + "vh";
+curr_link.style.left = (link_col1_left + 10) + "vw";
+
 // initialize drunk words
 curr_box = document.getElementById("drunkBox");
 curr_box.style.top = box_row1_top + "vh";
@@ -284,8 +288,8 @@ function in_zany(t){
 	var pic = document.getElementById("zanyPic");
 	var code = document.getElementById("zanyCode");
 	inside(box,txt,title,pic);
-	code.style.opacity = 0.8;
-	code.style.transform = "scale(1.01,1.01)";
+	//code.style.opacity = 0.8;
+	//code.style.transform = "scale(1.01,1.01)";
 }
 
 function out_zany(t){
@@ -295,8 +299,8 @@ function out_zany(t){
 	var pic = document.getElementById("zanyPic");
 	var code = document.getElementById("zanyCode");
 	outside(box,txt,title,pic);
-	code.style.opacity = 0.5;
-	code.style.transform = "scale(1,1)";
+	//code.style.opacity = 0.5;
+	//code.style.transform = "scale(1,1)";
 }
 
 function in_drunk(t){

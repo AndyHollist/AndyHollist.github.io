@@ -47,7 +47,7 @@
 
 #my_name
 {
-	font-size: 6.5vh;
+	font-size: 3.5vw;
 	position:absolute;
 	color:grey;
 	font-family: arial;
@@ -65,12 +65,12 @@
 	z-index: 1;
 	width: 75vw;
 	left:8vw;
-	font-size: 2vh;
+	font-size: 1vw;
 }
 
 #my_resume
 {
-	font-size: 5vh;
+	font-size: 2.5vw;
 	position:absolute;
 	color:grey;
 	font-family: arial;
@@ -82,7 +82,7 @@
 
 #my_linked_in
 {
-	font-size: 5vh;
+	font-size: 2.5vw;
 	position:absolute;
 	color:grey;
 	font-family: arial;
@@ -94,7 +94,7 @@
 
 #my_code
 {
-	font-size: 5vh;
+	font-size: 2.5vw;
 	position:absolute;
 	color:grey;
 	font-family: arial;
@@ -106,7 +106,7 @@
 
 #my_contact
 {
-	font-size: 5vh;
+	font-size: 2.5vw;
 	position:absolute;
 	color:grey;
 	font-family: arial;
@@ -235,6 +235,18 @@
 
 	z-index:1;
 	opacity: 0.5;
+}
+
+#zanyBallsAndroidCode
+{
+	
+	font-size: 16px;
+	position:absolute;
+	color:lightgrey;
+	font-family: arial;
+
+	z-index:1;
+	opacity: 0.5;	
 }
 
 /*--------------------*/
@@ -405,7 +417,7 @@
 	/*position:absolute;*/
 	position:relative;
 	top: 0vh;
-	left: 6vw;
+	left: 9vw;
 	width: 37vw;
 	height: 50vh;
 	z-index: 1;
