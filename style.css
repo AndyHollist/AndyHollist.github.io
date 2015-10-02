@@ -15,25 +15,25 @@
 #top_menu
 {
 	width: 100vw;
-	height: 29vh;
+	height: 10vw;
 }
 
 #bio_section
 {
 	width: 100vw;
-	height: 40vh;
+	height: 20vw;
 }
 
 #projectTitle_section
 {
 	width: 100vw;
-	height: 10vh;
+	height: 6vw;
 }
 
 #youtube_row1
 {
 	width: 100vw;
-	height: 60vh;
+	height: 20vw;
 }
 
 #boxes_row1
@@ -51,7 +51,7 @@
 	position:absolute;
 	color:grey;
 	font-family: arial;
-	top: 5vh;
+	top: 2vw;
 	right: 46vw;
 	z-index:1;
 	text-decoration: none;
@@ -61,7 +61,7 @@
 	color: yellow;
 	border-color: yellow;
 	position:absolute;
-	top:18vh;
+	top:8vw;
 	z-index: 1;
 	width: 75vw;
 	left:8vw;
@@ -74,7 +74,7 @@
 	position:absolute;
 	color:grey;
 	font-family: arial;
-	top: 20vh;
+	top: 9vw;
 	right: 80vw;
 	z-index:1;
 	text-decoration: none;
@@ -86,7 +86,7 @@
 	position:absolute;
 	color:grey;
 	font-family: arial;
-	top: 20vh;
+	top: 9vw;
 	right: 62vw;
 	z-index:1;
 	text-decoration: none;
@@ -98,7 +98,7 @@
 	position:absolute;
 	color:grey;
 	font-family: arial;
-	top: 20vh;
+	top: 9vw;
 	right: 40vw;
 	z-index:1;
 	text-decoration: none;
@@ -110,7 +110,7 @@
 	position:absolute;
 	color:grey;
 	font-family: arial;
-	top: 20vh;
+	top: 9vw;
 	right: 20vw;
 	z-index:1;
 	text-decoration: none;
@@ -122,8 +122,8 @@
 	position:absolute;
 	color:white;
 	font-family: arial;
-	top: 36vh;
-	right: 76vw;
+	top: 16vw;
+	left: 19vw;
 	z-index:1;
 	opacity: 0.5;
 }
@@ -134,8 +134,8 @@
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
-	top: 45vh;
-	right: 18vw;
+	top: 20vw;
+	left: 20vw;
 	z-index:1;
 	width:60vw;
 	opacity: 0.5;
@@ -147,7 +147,7 @@
 	width: 10vw;
 	height: 19vw;
 	position:absolute;
-	top: 39vh;
+	top: 17.5vw;
 	left: 9vw;
 	clip:rect(1vw, 9vw, 9vw, 1vw); /*(top,right,bottom,left)*/
 	opacity: 0.5;
@@ -157,11 +157,11 @@
 {
 	z-index: -1;
 	position: absolute;
-	top: 38vh;
+	top: 17vw;
 	right: 14vw;
 	background-color: grey;
 	width: 75vw;
-	height: 23vh;
+	height: 10vw;
 	border: 5px solid white;
 	opacity: 0.5;
 }
@@ -169,12 +169,12 @@
 
 #projectTitle
 {
-	font-size: 30px;
+	font-size: 2vw;
 	position:absolute;
 	color:white;
 	font-family: arial;
-	top: 420px;
-	right: 76vw;
+	top: 30vw;
+	left: 10vw;
 	z-index:2;
 }
 
@@ -419,7 +419,7 @@
 	top: 0vh;
 	left: 9vw;
 	width: 37vw;
-	height: 50vh;
+	height: 25vw;
 	z-index: 1;
 }
 
@@ -428,7 +428,7 @@
 	position: relative;
 	left: 10vw;
 	width: 37vw;
-	height: 50vh;
+	height: 25vw;
 	z-index: 1;
 }
 
