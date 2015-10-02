@@ -118,11 +118,11 @@
 
 #bio_title
 {
-	font-size: 30px;
+	font-size: 2vw;
 	position:absolute;
 	color:white;
 	font-family: arial;
-	top: 220px;
+	top: 36vh;
 	right: 76vw;
 	z-index:1;
 	opacity: 0.5;
@@ -130,11 +130,11 @@
 
 #bio
 {
-	font-size: 20px;
+	font-size: 1.5vw;
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
-	top: 280px;
+	top: 45vh;
 	right: 18vw;
 	z-index:1;
 	width:60vw;
@@ -144,12 +144,12 @@
 #andyPic
 {
 	z-index:1;
-	width: 100px;
-	height: 180px;
+	width: 10vw;
+	height: 19vw;
 	position:absolute;
-	top:255px;
-	right:81vw;
-	clip:rect(10px, 130px, 100px, 0px);
+	top: 39vh;
+	left: 9vw;
+	clip:rect(1vw, 9vw, 9vw, 1vw); /*(top,right,bottom,left)*/
 	opacity: 0.5;
 }
 
@@ -157,11 +157,11 @@
 {
 	z-index: -1;
 	position: absolute;
-	top: 240px;
+	top: 38vh;
 	right: 14vw;
 	background-color: grey;
 	width: 75vw;
-	height: 140px;
+	height: 23vh;
 	border: 5px solid white;
 	opacity: 0.5;
 }
