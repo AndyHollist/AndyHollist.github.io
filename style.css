@@ -182,7 +182,7 @@
 /*--------------------*/
 #ZanyBallsTitle
 {
-	font-size: 20px;
+	font-size: 1.4vw;
 	position:absolute;
 	color:white;
 	font-family: arial;
@@ -193,7 +193,7 @@
 
 #zanytxt
 {
-	font-size: 16px;
+	font-size: 1.2vw;
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
@@ -211,7 +211,7 @@
 	background-color: grey;
 
 	width: 35vw;
-	height: 180px;
+	height: 13.5vw;
 	border: 5px solid white;
 	opacity: 0.5;
 }
@@ -219,8 +219,8 @@
 #zanyPic
 {
 	z-index:0;
-	width: 100px;
-	height: 140px;
+	width: 7.5vw;
+	height: 10vw;
 	position:absolute;
 
 	opacity: 0.5;
@@ -228,7 +228,7 @@
 
 #zanyCode
 {
-	font-size: 16px;
+	font-size:	1.3vw;
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
@@ -240,7 +240,7 @@
 #zanyBallsAndroidCode
 {
 	
-	font-size: 16px;
+	font-size: 1.3vw;
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
@@ -252,7 +252,7 @@
 /*--------------------*/
 #DrunkWordsTitle
 {
-	font-size: 20px;
+	font-size: 1.4vw;
 	position:absolute;
 	color:white;
 	font-family: arial;
@@ -267,7 +267,7 @@
 	position: absolute;
 	background-color: grey;
 	width: 35vw;
-	height: 180px;
+	height: 13.5vw;
 	border: 5px solid white;
 	opacity: 0.5;
 }
@@ -275,15 +275,15 @@
 #drunkPic
 {
 	z-index:0;
-	width: 100px;
-	height: 140px;
+	width: 7.5vw;
+	height: 10vw;
 	position:absolute;
 	opacity: 0.5;
 }
 
 #drunktxt
 {
-	font-size: 16px;
+	font-size: 1.2vw;
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
@@ -294,7 +294,7 @@
 
 #drunkCode
 {
-	font-size: 16px;
+	font-size:	1.3vw;
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
@@ -305,7 +305,7 @@
 /*--------------------*/
 #RcartTitle
 {
-	font-size: 20px;
+	font-size: 1.4vw;
 	position:absolute;
 	color:white;
 	font-family: arial;
@@ -315,7 +315,7 @@
 
 #carttxt
 {
-	font-size: 16px;
+	font-size: 1.15vw;
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
@@ -330,7 +330,7 @@
 	position: absolute;
 	background-color: grey;
 	width: 35vw;
-	height: 180px;
+	height: 13.5vw;
 	border: 5px solid white;
 	opacity: 0.5;
 }
@@ -338,15 +338,15 @@
 #cartPic
 {
 	z-index:0;
-	width: 100px;
-	height: 140px;
+	width: 7.5vw;
+	height: 10vw;
 	position:absolute;
 	opacity: 0.5;
 }
 
 #cartCode
 {
-	font-size: 16px;
+	font-size:	1.3vw;
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
@@ -359,7 +359,7 @@
 
 #BikeTitle
 {
-	font-size: 20px;
+	font-size: 1.4vw;
 	position:absolute;
 	color:white;
 	font-family: arial;
@@ -370,7 +370,7 @@
 
 #biketxt
 {
-	font-size: 16px;
+	font-size: 1.2vw;
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
@@ -385,7 +385,7 @@
 	position: absolute;
 	background-color: grey;
 	width: 35vw;
-	height: 180px;
+	height: 13.5vw;
 	border: 5px solid white;
 	opacity: 0.5;
 }
@@ -393,15 +393,15 @@
 #bikePic
 {
 	z-index:0;
-	width: 100px;
-	height: 140px;
+	width: 7.5vw;
+	height: 10vw;
 	position:absolute;
 	opacity: 0.5;
 }
 
 #bikeCode
 {
-	font-size: 16px;
+	font-size:	1.3vw;
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;

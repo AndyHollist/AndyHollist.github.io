@@ -1,22 +1,22 @@
 //project boxes
 var col_to_col = 44;
-var row_to_row = 40;
+var row_to_row = 17;
 
 //  column 1 row 1
 var box_col1_left = 8;
-var box_row1_top = 144;
+var box_row1_top = 67;
 
 var pic_col1_left = 9;
-var pic_row1_top = 147;
+var pic_row1_top = 68;
 
 var title_col1_left = 18;
-var title_row1_top = 144;
+var title_row1_top = 66.3;
 
 var para_col1_left = 19;
-var para_row1_top = 148;
+var para_row1_top = 68;
 
 var link_col1_left = 20;
-var link_row1_top = 169;
+var link_row1_top = 78;
 
 // column 2
 var box_col2_left = box_col1_left + col_to_col;
@@ -35,90 +35,90 @@ var link_row2_top = link_row1_top + row_to_row;
 
 //initialize zany balls
 var curr_box = document.getElementById("zanyBox");
-curr_box.style.top = box_row1_top + "vh";
+curr_box.style.top = box_row1_top + "vw";
 curr_box.style.left = box_col1_left + "vw";
 
 var curr_pic = document.getElementById("zanyPic");
-curr_pic.style.top = pic_row1_top + "vh";
+curr_pic.style.top = pic_row1_top + "vw";
 curr_pic.style.left = pic_col1_left + "vw";
 
 var curr_title = document.getElementById("ZanyBallsTitle");
-curr_title.style.top = title_row1_top + "vh";
+curr_title.style.top = title_row1_top + "vw";
 curr_title.style.left = title_col1_left + "vw";
 
 var curr_para = document.getElementById("zanytxt");
-curr_para.style.top = para_row1_top + "vh";
+curr_para.style.top = para_row1_top + "vw";
 curr_para.style.left = para_col1_left + "vw";
 
 var curr_link = document.getElementById("zanyCode");
-curr_link.style.top = link_row1_top + "vh";
+curr_link.style.top = link_row1_top + "vw";
 curr_link.style.left = link_col1_left + "vw";
 
 curr_link = document.getElementById("zanyBallsAndroidCode");
-curr_link.style.top = link_row1_top + "vh";
+curr_link.style.top = link_row1_top + "vw";
 curr_link.style.left = (link_col1_left + 10) + "vw";
 
 // initialize drunk words
 curr_box = document.getElementById("drunkBox");
-curr_box.style.top = box_row1_top + "vh";
+curr_box.style.top = box_row1_top + "vw";
 curr_box.style.left = box_col2_left + "vw";
 
 curr_pic = document.getElementById("drunkPic");
-curr_pic.style.top = pic_row1_top + "vh";
+curr_pic.style.top = pic_row1_top + "vw";
 curr_pic.style.left = pic_col2_left + "vw";
 
 curr_title = document.getElementById("DrunkWordsTitle");
-curr_title.style.top = title_row1_top + "vh";
+curr_title.style.top = title_row1_top + "vw";
 curr_title.style.left = title_col2_left + "vw";
 
 curr_para = document.getElementById("drunktxt");
-curr_para.style.top = para_row1_top + "vh";
+curr_para.style.top = para_row1_top + "vw";
 curr_para.style.left = para_col2_left + "vw";
 
 curr_link = document.getElementById("drunkCode");
-curr_link.style.top = link_row1_top + "vh";
+curr_link.style.top = link_row1_top + "vw";
 curr_link.style.left = link_col2_left + "vw";
 
 // initialize rcart
 curr_box = document.getElementById("cartBox");
-curr_box.style.top = box_row2_top + "vh";
+curr_box.style.top = box_row2_top + "vw";
 curr_box.style.left = box_col1_left + "vw";
 
 curr_pic = document.getElementById("cartPic");
-curr_pic.style.top = pic_row2_top + "vh";
+curr_pic.style.top = pic_row2_top + "vw";
 curr_pic.style.left = pic_col1_left + "vw";
 
 curr_title = document.getElementById("RcartTitle");
-curr_title.style.top = title_row2_top + "vh";
+curr_title.style.top = title_row2_top + "vw";
 curr_title.style.left = title_col1_left + "vw";
 
 curr_para = document.getElementById("carttxt");
-curr_para.style.top = para_row2_top + "vh";
+curr_para.style.top = para_row2_top + "vw";
 curr_para.style.left = para_col1_left + "vw";
 
 curr_link = document.getElementById("cartCode");
-curr_link.style.top = link_row2_top + "vh";
+curr_link.style.top = link_row2_top + "vw";
 curr_link.style.left = link_col1_left + "vw";
 
 // initialize future bike
 curr_box = document.getElementById("bikeBox");
-curr_box.style.top = box_row2_top + "vh";
+curr_box.style.top = box_row2_top + "vw";
 curr_box.style.left = box_col2_left + "vw";
 
 curr_pic = document.getElementById("bikePic");
-curr_pic.style.top = pic_row2_top + "vh";
+curr_pic.style.top = pic_row2_top + "vw";
 curr_pic.style.left = pic_col2_left + "vw";
 
 curr_title = document.getElementById("BikeTitle");
-curr_title.style.top = title_row2_top + "vh";
+curr_title.style.top = title_row2_top + "vw";
 curr_title.style.left = title_col2_left + "vw";
 
 curr_para = document.getElementById("biketxt");
-curr_para.style.top = para_row2_top + "vh";
+curr_para.style.top = para_row2_top + "vw";
 curr_para.style.left = para_col2_left + "vw";
 
 curr_link = document.getElementById("bikeCode");
-curr_link.style.top = link_row2_top + "vh";
+curr_link.style.top = link_row2_top + "vw";
 curr_link.style.left = link_col2_left + "vw";
 
 
