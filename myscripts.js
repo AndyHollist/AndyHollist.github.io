@@ -1,3 +1,25 @@
+$(document).ready(function(){
+	
+
+	$('#projectTitle').mouseover(function(){
+		$(this).fadeTo('slow', 0.7);
+	});
+	$('#projectTitle').mouseout(function(){
+		$(this).fadeTo('slow', 0.3);
+	});
+	
+	$('#myRoomTitle').mouseover(function(){
+		$(this).fadeTo('slow', 0.7);
+	});
+	$('#myRoomTitle').mouseout(function(){
+		$(this).fadeTo('slow', 0.3);
+	});
+
+});
+
+
+
+
 //project boxes
 var col_to_col = 44;
 var row_to_row = 17;
@@ -120,6 +142,15 @@ curr_para.style.left = para_col2_left + "vw";
 curr_link = document.getElementById("bikeCode");
 curr_link.style.top = link_row2_top + "vw";
 curr_link.style.left = link_col2_left + "vw";
+
+
+/*------------my room ----------------------*/
+var myRoomTitle = document.getElementById("myRoomTitle");
+var roomTitlePos = (title_row2_top + row_to_row)
+myRoomTitle.style.top =  roomTitlePos + "vw";
+
+var myRoomPic = document.getElementById("myRoomPic");
+myRoomPic.style.top = (roomTitlePos + 5) + "vw";
 
 
 //---------------------------------------------------------------
