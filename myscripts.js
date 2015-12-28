@@ -14,31 +14,61 @@ $(document).ready(function(){
 	$('#myRoomTitle').mouseout(function(){
 		$(this).fadeTo('slow', 0.3);
 	});
+	$('#bio_space').mouseover(function(){
+		$('.bio_class').fadeTo('fast', 0.8);
+		$('.bio_class').animate({useless: 100}, { 
+			step: function(now,fx){
+				$(this).css('transform', 'scale(1.0' + now + ', 1.0' + now + ')');
+			},
+			duration: 'fast'
+		 }, 'linear');
+	});
+	$('#bio_space').mouseout(function(){
+		$('.bio_class').fadeTo('fast', 0.5);
+		$('.bio_class').animate({useless: 100}, { 
+			step: function(now,fx){
+				$(this).css('transform', 'scale(1.00,1.00)');
+			},
+			duration: 'fast'
+		 }, 'linear');
+	});
+	//need to fade and scale here
+	//fade and scale the project boxes but leave the links in front (z index: 2) so they can still be clicked
+
 
 });
+
+//top row of links
+var topclass = document.getElementById("top_menu");
+topclass.style.left = "10vw";
 
 
 
 
 //project boxes
+var shift_down = 19;
+
+var bottom_space = document.getElementById("bottomSpace");
+bottom_space.style.top = (160+shift_down) + "vw";
+
 var col_to_col = 44;
 var row_to_row = 17;
 
 //  column 1 row 1
 var box_col1_left = 8;
-var box_row1_top = 67;
+var box_row1_top = 67 + shift_down;
 
 var pic_col1_left = 9;
-var pic_row1_top = 68;
+var pic_row1_top = 68 + shift_down;
 
 var title_col1_left = 18;
-var title_row1_top = 66.3;
+var title_row1_top = 66.3 + shift_down;
 
 var para_col1_left = 19;
-var para_row1_top = 68;
+var para_row1_top = 68 + shift_down;
 
 var link_col1_left = 20;
-var link_row1_top = 78;
+var link_row1_top = 78 + shift_down;
 
 // column 2
 var box_col2_left = box_col1_left + col_to_col;
@@ -247,7 +277,7 @@ function show_coord(event){
 	if( x < 1300)
 	mouse_trail(event);
 	
-	/*var name = document.getElementById("my_name");
+	/*
 	
 	if(event.target==name)
 	{
@@ -295,6 +325,7 @@ function outside(box,txt,title,pic){
 	pic.style.transform = "scale(1,1)";
 }
 
+/*
 function in_bio(t){
 	var box = document.getElementById("bio_box");
 	var txt = document.getElementById("bio");
@@ -311,7 +342,7 @@ function out_bio(t){
 	var pic = document.getElementById("andyPic");
 	outside(box,txt,title,pic);
 }
-
+*/
 function in_zany(t){
 	var title = document.getElementById("ZanyBallsTitle");
 	var txt = document.getElementById("zanytxt");

@@ -14,8 +14,16 @@
 /*********************************/
 #top_menu
 {
+
 	width: 100vw;
 	height: 10vw;
+}
+
+#row_of_links
+{
+	position: absolute;
+	left:10vw;
+	top:9vw;
 }
 
 #bio_section
@@ -30,11 +38,6 @@
 	height: 6vw;
 }
 
-#youtube_row1
-{
-	width: 100vw;
-	height: 20vw;
-}
 
 #boxes_row1
 {
@@ -52,9 +55,10 @@
 	color:grey;
 	font-family: arial;
 	top: 2vw;
-	right: 46vw;
+	left: 32vw;
 	z-index:1;
 	text-decoration: none;
+	/*width: 100vw;*/
 }
 
 #line{
@@ -66,16 +70,17 @@
 	width: 75vw;
 	left:8vw;
 	font-size: 1vw;
+	
 }
 
 #my_resume
 {
 	font-size: 2.5vw;
-	position:absolute;
+	
 	color:grey;
 	font-family: arial;
-	top: 9vw;
-	right: 80vw;
+	
+	padding-left: 0vw;
 	z-index:1;
 	text-decoration: none;
 }
@@ -83,11 +88,10 @@
 #my_linked_in
 {
 	font-size: 2.5vw;
-	position:absolute;
+	
 	color:grey;
 	font-family: arial;
-	top: 9vw;
-	right: 62vw;
+	padding-left: 9vw;
 	z-index:1;
 	text-decoration: none;
 }
@@ -95,11 +99,10 @@
 #my_code
 {
 	font-size: 2.5vw;
-	position:absolute;
+	
 	color:grey;
 	font-family: arial;
-	top: 9vw;
-	right: 40vw;
+	padding-left: 9vw;
 	z-index:1;
 	text-decoration: none;
 }
@@ -107,16 +110,25 @@
 #my_contact
 {
 	font-size: 2.5vw;
-	position:absolute;
+	
 	color:grey;
 	font-family: arial;
-	top: 9vw;
-	right: 20vw;
+	padding-left: 9vw;
+
 	z-index:1;
 	text-decoration: none;
 }
 
 /*-------------------------------*/
+
+#bio_space{
+	z-index: 1;
+	position: absolute;
+	top: 14vw;
+	right: 14vw;
+	width: 75vw;
+	height: 10vw;
+}
 
 #bio_title
 {
@@ -124,7 +136,7 @@
 	position:absolute;
 	color:white;
 	font-family: arial;
-	top: 16vw;
+	top: 12vw;
 	left: 19vw;
 	z-index:1;
 	opacity: 0.5;
@@ -136,7 +148,7 @@
 	position:absolute;
 	color:lightgrey;
 	font-family: arial;
-	top: 20vw;
+	top: 16vw;
 	left: 20vw;
 	z-index:1;
 	width:60vw;
@@ -149,7 +161,7 @@
 	width: 10vw;
 	height: 19vw;
 	position:absolute;
-	top: 17.5vw;
+	top: 13.5vw;
 	left: 9vw;
 	clip:rect(1vw, 9vw, 9vw, 1vw); /*(top,right,bottom,left)*/
 	opacity: 0.5;
@@ -159,7 +171,7 @@
 {
 	z-index: -1;
 	position: absolute;
-	top: 17vw;
+	top: 13vw;
 	right: 14vw;
 	background-color: grey;
 	width: 75vw;
@@ -168,6 +180,19 @@
 	opacity: 0.5;
 }
 
+#proj_descr_box
+{
+	position: absolute;
+	top: 23vw;
+}
+
+#proj_descr
+{
+	padding-left: 18vw;
+	font-size: 1.5vw;
+	color:lightgrey;
+	font-family: arial;
+}
 
 #projectTitle
 {
@@ -176,7 +201,7 @@
 	color:white;
 	font-family: arial;
 	opacity: 0.3;
-	top: 30vw;
+	top: 25vw;
 	left: 10vw;
 	z-index:2;
 }
@@ -414,13 +439,27 @@
 
 
 /*------------------------------*/
+#youtube_row1
+{
+	position: absolute;
+	top: 30vw;
+	width: 100vw;
+	height: 20vw;
+	left: 10vw;
+}
+
+#youtube_row2
+{
+	position: absolute;
+	top: 57vw;
+	width: 100vw;
+	height: 20vw;
+	left: 10vw;
+}
+
 
 #ball_video
 {
-	/*position:absolute;*/
-	position:relative;
-	top: 0vh;
-	left: 9vw;
 	width: 37vw;
 	height: 25vw;
 	z-index: 1;
@@ -428,12 +467,28 @@
 
 #zany_balls_video
 {
-	position: relative;
-	left: 10vw;
 	width: 37vw;
 	height: 25vw;
 	z-index: 1;
+	padding-left: 1vw;
 }
+
+#future_bike_video1
+{
+	width: 37vw;
+	height: 25vw;
+	z-index: 1;
+	padding-left: 1vw;
+}
+
+#zb_vid2
+{
+	width: 37vw;
+	height: 25vw;
+	z-index: 1;
+
+}
+
 /*-----------------------------------*/
 
 #myRoomTitle{
@@ -466,7 +521,6 @@
 	width: 100vw;
 	height: 200px;
 	position:absolute;
-	top:2000px;
 	right:0;
 }
 

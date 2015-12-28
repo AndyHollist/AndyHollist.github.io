@@ -23,7 +23,7 @@
  			onmouseout="unhighlight_text(this)" >
  			Andrew Hollist
  		</a>
-
+ 		<section id="row_of_links"> 
  		<a id="my_resume" href="https://drive.google.com/file/d/0B41MV3HUpqGsV0VEcW9seEZzYzg/view?usp=sharing"onmouseenter="highlight_text(this)"
  			onmouseout="unhighlight_text(this)" target="_blank">
  			Resume
@@ -35,7 +35,7 @@
  		</a>
 
  		<!-- href="https://drive.google.com/a/ucr.edu/folderview?id=0B41MV3HUpqGsfklpZUNkU0VNTkxsdnpucmNHNWRUYjlEd1JMdVNGT1VUeGFpa1Z6ZFlLODA&usp=sharing" -->
- 		<a id="my_code" href="https://github.com/AndyHollist/CrazyBalls/blob/master/main.cpp"
+ 		<a id="my_code" href="https://github.com/AndyHollist"
  		onmouseenter="highlight_text(this)"
  			onmouseout="unhighlight_text(this)" target="_blank">
  			Sample Code
@@ -48,23 +48,31 @@
  			onmouseout="unhighlight_text(this)" target="_blank">
  			Contact Me
  		</a>
+ 		</section>
 
  		<hr id="line">
 
  	</section >
 
  	<section id="bio_section">
- 		<img id="andyPic" src="fancypic.jpg" onmouseenter="in_bio(this)" onmouseout="out_bio(this)"></img>
+ 		<img id="andyPic" class="bio_class" src="fancypic.jpg" onmouseenter="in_bio(this)" onmouseout="out_bio(this)"></img>
 
- 		<h1 id="bio_title" onmouseenter="in_bio(this)" onmouseout="out_bio(this)">
+ 		<h1 id="bio_title" class="bio_class" onmouseenter="in_bio(this)" onmouseout="out_bio(this)">
  			Bio
  		</h1>
- 		<p1 id="bio" onmouseenter="in_bio(this)" onmouseout="out_bio(this)">
- 			My name is Andrew Hollist. I am pursuing a bachelors degree in Computer Science at the University of California Riverside. I am driven by my love of video games and technology to further push myself and learn new things every day.
- 		</p1>
- 		<div id = "bio_box" class="box1" onmouseenter="in_bio(this)" onmouseout="out_bio(this)">
- 		</div>
+ 		<p1 id="bio" class="bio_class" onmouseenter="in_bio(this)" onmouseout="out_bio(this)">
+ 			My name is Andrew Hollist. I recently graduated from University of California Riverside with a Bachelors Degree in Computer Science and a 3.6 GPA. I am driven by my love of video games and technology to further push myself and learn new things every day. <br>
 
+ 			  
+ 		</p1>
+ 		<div id = "bio_box" class="box1 bio_class" onmouseenter="in_bio(this)" onmouseout="out_bio(this)">
+ 		</div>
+ 		<div id="bio_space"></div>
+
+ 		<section id="proj_descr_box">
+ 		<blockquote id="proj_descr">Below you can see my projects
+ 			running in action as well as view the source code.<blockquote>
+		</section>
  	</section>
 
  	<section id="projectTitle_section">
@@ -77,10 +85,15 @@
  		<iframe id="ball_video"  src="https://www.youtube.com/embed/1wA4vgr2now" frameborder="0" allowfullscreen></iframe>
  		<iframe id="zany_balls_video" src="https://www.youtube.com/embed/tjZFOb6BzNw" frameborder="0" allowfullscreen></iframe>
  	</section>
+ 	<section id= "youtube_row2">
+ 		<iframe id="zb_vid2" src="https://www.youtube.com/embed/vaGvrltwWp8" frameborder="0" allowfullscreen></iframe>
+
+ 		<iframe id="future_bike_video1" src="https://www.youtube.com/embed/X4bxeDxWusI" frameborder="0" allowfullscreen></iframe>
+ 	</section>
 
  	<section id="boxes_row1"  >
 
- 		<<div id="zanyBox" onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
+ 		<div id="zanyBox" onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
 
 
 	 	</div>
@@ -92,8 +105,9 @@
 	 		</h2>
 	 		<p id="zanytxt"   onmouseenter="in_zany(this)" onmouseout="out_zany(this)">
 	 			Zany Balls is a simple and addictive game that is a blast to play. You control the paddle to try and
-	 			catch the blue balls but avoid the red ones as they fall, bounce, and fly towards you! Created using
-	 			C++.
+	 			catch the blue balls but avoid the red ones as they fall, bounce, and fly towards you! Two 
+	 			versions: C++ for Linux, Java for Android. It is currently available on the
+	 			 Google Play Store.
 	 		</p>
 
 	 		<a id="zanyCode" href= "https://github.com/AndyHollist/CrazyBalls/blob/master/main.cpp"
